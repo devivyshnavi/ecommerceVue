@@ -19,6 +19,13 @@ npm run build
 ```
 npm run lint
 ```
-
+##  [Vue Application](https://github.com/devivyshnavi/ecommerceVue/tree/master)
+> Vue application setup
+```console 
+$ cd ../..
+$ cd ecommerce_vuejs
+$ npm install --save
+$ npm run serve
+```
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).

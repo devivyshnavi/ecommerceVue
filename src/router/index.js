@@ -15,6 +15,7 @@ import Account from '../components/Account.vue'
 import Wishlist from '../components/Wishlist.vue'
 import Myorders from '../components/Myorders.vue'
 import Explore from '../components/Explore.vue'
+import Tracking from '../components/Tracking.vue'
 function myGuard(to, from, next) {
     let isAuthenticated = false;
     if (localStorage.getItem('uid') != undefined) {
@@ -68,6 +69,11 @@ export default new Router({
             path: '/productdetails/:id',
             name: 'Productdetails',
             component: Productdetails
+        },
+        {
+            path: '/tracking',
+            name: 'Tracking',
+            component: Tracking
         },
         {
             path: '/checkout',

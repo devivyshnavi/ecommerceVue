@@ -1,4 +1,4 @@
-# ecommerce_vue
+# ecommerce_vuejs
 
 ## Project setup
 ```
